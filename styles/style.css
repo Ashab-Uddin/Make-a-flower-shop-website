@@ -54,3 +54,50 @@ body{
     height: 850px;
     padding-top: 60px;
 }
+/* Feauter Flowers */
+.featured-image-container{
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+    border: solid red;
+    margin-top: 150px;
+}
+.featured-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+}
+.featured-title-container p{
+    margin-top: 25px;
+}
+.featured-images{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid turquoise;
+}
+.featured1,.featured2,.featured3{
+    width: 450px;
+    height: 550px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    border-radius: 50% 50% 0% 0%;
+    margin-top: 48px;
+    
+}
+.featured1{
+    background-color: rgb(242, 222, 232);
+}
+.featured2{
+    background-color: rgb(218, 240, 241);
+}
+.featured3{
+    background-color: rgb(228, 236, 220);
+}
