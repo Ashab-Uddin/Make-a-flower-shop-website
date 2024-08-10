@@ -101,3 +101,104 @@ body{
 .featured3{
     background-color: rgb(228, 236, 220);
 }
+.suported-system{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 195px;
+}
+.Group57, .Group58, .Group59{
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+
+}
+.group57-container{
+    border: 2px solid rgb(5, 241, 56);
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+}
+.group58-container{
+    border: 2px solid rgb(5, 241, 56);
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+}
+.group59-container{
+    border: 2px solid rgb(5, 241, 56);
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+}
+.offer-container{
+    border: 2px solid gold;
+    max-width: 1920px;
+    height: 620px;
+    margin-top: 130px;
+}
+.offer-content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.offer-text-container{
+    width: 40%;
+    /* border: 2px solid green; */
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-text-container button{
+    margin-right: 480px;
+    padding: 20px 40px;
+    color:#FFFFFF;
+    background-color: #E55473;
+    border: none;
+    border-radius: 6px;
+    margin-top: 32px;
+}
+.offer-image-container{
+    width: 60%;
+    /* border: 2px solid blue; */
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-section-container{
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+    /* border: solid red; */
+    margin-top: 150px;
+}
+.instagram-text-container{
+    height: 132px;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 2px solid blueviolet; */
+    text-align: center;
+}
+.first-insta-image, .second-insta-image, .third-insta-image, .fourth-insta-image{
+    width: 100%;
+    height: 100%
+    ;
+    /* border: 2px solid blue; */
+}
+.first-insta-image img, .second-insta-image img, .third-insta-image img, .fourth-insta-image img{
+    width: 90%;
+    height: 90%;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+.instagram-image-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
