@@ -11,7 +11,7 @@ body{
 .banner-section-container{
     max-width: 1920px;
     height: 850px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(253, 238, 241);
     
 }
@@ -59,7 +59,7 @@ body{
     width: 90%;
     height: 850px;
     margin: 0 auto;
-    border: solid red;
+    /* border: solid red; */
     margin-top: 150px;
 }
 .featured-title-container{
@@ -78,12 +78,12 @@ body{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    border: 2px solid turquoise;
+    /* border: 2px solid turquoise; */
 }
 .featured1,.featured2,.featured3{
     width: 450px;
     height: 550px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ body{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 195px;
 }
 .Group57, .Group58, .Group59{
@@ -118,25 +118,25 @@ body{
 
 }
 .group57-container{
-    border: 2px solid rgb(5, 241, 56);
+    /* border: 2px solid rgb(5, 241, 56); */
     width: 33%;
     margin: 0 auto;
     display: flex;
 }
 .group58-container{
-    border: 2px solid rgb(5, 241, 56);
+    /* border: 2px solid rgb(5, 241, 56); */
     width: 33%;
     margin: 0 auto;
     display: flex;
 }
 .group59-container{
-    border: 2px solid rgb(5, 241, 56);
+    /* border: 2px solid rgb(5, 241, 56); */
     width: 33%;
     margin: 0 auto;
     display: flex;
 }
 .offer-container{
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     max-width: 1920px;
     height: 620px;
     margin-top: 130px;
@@ -174,7 +174,7 @@ body{
 }
 .instagram-section-container{
     width: 90%;
-    height: 850px;
+    height: 550px;
     margin: 0 auto;
     /* border: solid red; */
     margin-top: 150px;
@@ -201,4 +201,53 @@ body{
 .instagram-image-container{
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
+}
+.super-deal-container{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid skyblue; */
+    margin-top: 100px;
+    background-image:url('/images/latest-deals-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .deal-content{
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+} */
+ .deal-content{
+    text-align: center;
+ }
+.deal-content p{
+    margin-top: 16px;
+}
+.deal-content input{
+    height: 60px;
+    width: 500px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.deal-content button{
+    padding: 20px 40px;
+    color:#FFFFFF;
+    background-color: #E55473;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.footer-section-container{
+    width: 1920px;
+    height: 450px;
+    margin: o auto;
+    /* border: 2px solid rgb(7, 7, 229); */
 }
